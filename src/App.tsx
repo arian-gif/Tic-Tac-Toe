@@ -55,8 +55,8 @@ function App() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh", background: "#f8fafc" }}>
-      <h1 style={{ marginBottom: 16 }}>TicTacToe</h1>
-      <div style={{ marginBottom: 12, fontSize: 20, minHeight: 28 }}>{status}</div>
+      <h1 style={{ marginBottom: 16, color: "black" }}>Tic Tac Toe</h1>
+      <div style={{ marginBottom: 12, fontSize: 20, minHeight: 28, color: "black" }}>{status}</div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 60px)", gap: 6, marginBottom: 16 }}>
         {squares.map((val, idx) => (
           <button
