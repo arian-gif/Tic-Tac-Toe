@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Helper to calculate winner
 function calculateWinner(squares: (string | null)[]) {
